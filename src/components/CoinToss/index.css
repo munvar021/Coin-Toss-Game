@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-heading {
+  color: #a35200;
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+@media (min-width: 768px){
+  .main-heading {
+    font-size: 35px;
+  }
+}
+
+.description {
+  color: #334155;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+@media (min-width: 768px){
+  .description {
+    font-size: 26px;
+  }
+}
+
+.coin-image {
+  height: 150px;
+  margin: 15px 0px;
+}
+
+@media (min-width: 768px){
+  .coin-image {
+    height: 200px;
+  }
+}
+
+.toss-button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+@media (min-width: 768px){
+  .toss-button {
+    font-size: 20px;
+  }
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-name {
+  font-size: 16px;
+  margin: 20px 20px;
+  color: #475569;
+}
+
+@media (min-width: 768px){
+  .counter-name {
+    font-size: 20px;
+  }
+}
